@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee Website HTML and CSS | CodingNepal</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="manifest" href="manifest.json" />
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav_logo">
+          <a href="#">
+            <img src="images/coffee_logo.png" alt="Coffee Logo" />
+            <h2>Coffee</h2>
+          </a>
+        </div>
+
+        <input type="checkbox" id="click" />
+        <label for="click">
+          <i class="menu_btn bx bx-menu"></i>
+          <i class="close_btn bx bx-x"></i>
+        </label>
+
+        <ul>
+          <li><a href="#">Главная</a></li>
+          <li><a href="#about">О нас</a></li>
+          <li><a href="#service">Услуги</a></li>
+          <li><a href="#why">Почему мы</a></li>
+          <li><a href="#gallery">Галерея</a></li>
+          <li><a href="#contact">Контакты</a></li>
+        </ul>
+      </nav>
+    </header>
+
+
+    <section class="hero_section">
+      <div class="section_container">
+        <div class="hero_container">
+          <div class="text_section">
+            <h2>Ароматное кофе</h2>
+            <h3>Магия в каждой чашке</h3>
+            <p>
+              Добро пожаловать в наш кофейный рай
+            </p>
+
+            <div class="hero_section_button">
+              <button class="button">Заказать онлайн</button>
+              <button class="button">Бронировать столик</button>
+            </div>
+          </div>    
+
+          <div class="image_section">
+            <img src="images/cofffee_image.png" alt="Coffee" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="about_us" id="about">
+      <div class="section_container">
+        <div class="about_container">
+          <div class="text_section">
+            <h2 class="section_title">О нас</h2>
+            <p>
+                Мы, Coffee House, являемся одним из любимых мест для кофе и бесед.
+                Наша цель — предложить нашим гостям наилучший опыт, гарантируя подлинный
+                опыт употребления кофе в теплой, дружественной и непринужденной
+                обстановке. Мы стремимся привнести в город ощущение релаксации
+                с помощью нашего уютного пространства, в котором есть удобные
+                диваны, чтобы отдохнуть, наслаждаясь кофе.
+            </p>
+          </div>
+
+          <div class="image_section">
+            <img src="images/about_coffee.png" alt="coffee" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="services" id="service">
+      <h2 class="section_title">Услуги</h2>
+      <div class="section_container">
+        <div class="service_container">
+          <div class="services_items">
+            <img src="images/hot_beverages.png" alt="Hot Beverages" />
+            <div class="services_text">
+              <h3>Горячие напитки</h3>
+              <p>
+                Широкий ассортимент горячего кофе, который подарит вам ощущение свежести и легкости.
+              </p>
+            </div>
+          </div>
+          <div class="services_items">
+            <img src="images/cold_beverages.png" alt="Cold Beverages" />
+            <div class="services_text">
+              <h3>Холодные напитки</h3>
+              <p>
+                Холодный кофе с пенкой и кремом, который подарит вам ощущение прохлады изнутри.
+              </p>
+            </div>
+          </div>
+          <div class="services_items">
+            <img src="images/refreshment.png" alt="Refreshment" />
+            <div class="services_text">
+              <h3>Освежающие напитки</h3>
+              <p>Освежающий напиток со льдом и фруктами, который поднимет вам настроение.</p>
+            </div>
+          </div>
+          <div class="services_items">
+            <img src="images/special_combos.png" alt="Special Combos" />
+            <div class="services_text">
+              <h3>Особые комбо</h3>
+              <p>
+                Теперь выбрать любимые сочетания еды и напитков стало действительно легко.
+              </p>
+            </div>
+          </div>
+          <div class="services_items">
+            <img
+              src="images/burger_frenchFries.png"
+              alt="Burger & French Fries"
+            />
+            <div class="services_text">
+              <h3>Бургер и картофель фри</h3>
+              <p>Вкуснятина! Быстрые перекусы, чтобы утолить небольшой голод.</p>
+            </div>
+          </div>
+          <div class="services_items">
+            <img src="images/dessert.png" alt="Desserts" />
+            <div class="services_text">
+              <h3>Десерты</h3>
+              <p>
+                Это наверняка насытит ваши рецепторы и подарит вам кулинарное наслаждение.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="why_us" id="why">
+      <h2 class="section_title">Почему мы?</h2>
+      <div class="section_container">
+        <div class="why_container">
+          <div class="why_items">
+            <img src="images/delicious.png" alt="Delicious" />
+            <div class="why_us_text">
+              <h3>Вкусная еда</h3>
+              <p>
+                Мы предлагаем вам щедрое угощение, от которого пальчики оближешь, чтобы удовлетворить ваши вкусовые рецепторы и подарить вам кулинарное наслаждение.
+              </p>
+            </div>
+          </div>
+          <div class="why_items">
+            <img src="images/pleasant.png" alt="Pleasant" />
+            <div class="why_us_text">
+              <h3>Приятная атмосфера</h3>
+              <p>
+                Мы стремимся обслуживать всех наших гостей с идеальным опытом еды. Мы обеспечиваем идеальную атмосферу, чтобы лелеять особые моменты.
+              </p>
+            </div>
+          </div>
+          <div class="why_items">
+            <img src="images/hospitality.png" alt="Hospitality" />
+            <div class="why_us_text">
+              <h3>Гостеприимство</h3>
+              <p>
+                Наши сотрудники с радостью помогут. Мы делаем все возможное, чтобы вы остались довольны.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="gallery" id="gallery">
+      <h2 class="section_title">Галерея</h2>
+      <div class="section_container">
+        <div class="gallery_container">
+          <div class="gallery_items">
+            <img src="images/gallery_1.jpg" alt="Gallery Image" />
+          </div>
+          <div class="gallery_items">
+            <img src="images/gallery_2.jpg" alt="Gallery Image" />
+          </div>
+          <div class="gallery_items">
+            <img src="images/gallery_3.jpg" alt="Gallery Image" />
+          </div>
+          <div class="gallery_items">
+            <img src="images/gallery_4.jpg" alt="Gallery Image" />
+          </div>
+          <div class="gallery_items">
+            <img src="images/gallery_5.jpg" alt="Gallery Image" />
+          </div>
+          <div class="gallery_items">
+            <img src="images/gallery_6.jpg" alt="Gallery Image" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="contact" id="contact">
+      <h2 class="section_title">Связаться с нами</h2>
+      <div class="section_container">
+        <div class="contact_container">
+          <div class="contact_form">
+            <form action="#">
+              <div class="field">
+                <label for="Name">Фамилия Имя</label>
+                <input type="text" id="Name" placeholder="Your Name" required />
+              </div>
+              <div class="field">
+                <label for="email">Почта</label>
+                <input
+                  type="text"
+                  id="email"
+                  placeholder="Your Email"
+                  required
+                />
+              </div>
+              <div class="field">
+                <label for="number">Телефон</label>
+                <input
+                  type="number"
+                  id="number"
+                  placeholder="Your Contact Number"
+                  required
+                />
+              </div>
+              <div class="field">
+                <label for="textarea">Сообщение</label>
+                <textarea
+                  name="textarea"
+                  id="textarea"
+                  placeholder="Your Message"
+                ></textarea>
+              </div>
+
+              <button class="button" id="submit">Отправить</button>
+            </form>
+          </div>
+
+          <div class="contact_text">
+            <div class="contact_items">
+              <i class="bx bx-current-location"></i>
+              <div class="contact_details">
+                <h3>Наше местоположение</h3>
+                <p>Россия, Москва</p>
+              </div>
+            </div>
+            <div class="contact_items">
+              <i class="bx bxs-envelope"></i>
+              <div class="contact_details">
+                <h3>Почта</h3>
+                <p>coffeeshop@xyz.com</p>
+              </div>
+            </div>
+            <div class="contact_items">
+              <i class="bx bxs-phone-call"></i>
+              <div class="contact_details">
+                <h3>Звоните</h3>
+                <p>+79998761212/p>
+              </div>
+            </div>
+            <div class="contact_items">
+              <i class="bx bxs-time-five"></i>
+              <div class="contact_details">
+                <h3>Рабочее время</h3>
+                <p>Пн-Сб : 10:00 - 19:00</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <footer>
+      <div class="section_container">
+        <div class="footer_section">
+          <div class="footer_logo">
+            <a href="index.html">
+              <img src="images/coffee_logo.png" alt="Coffee Logo" />
+              <h2>Coffee</h2>
+            </a>
+          </div>
+
+          <div class="useful_links">
+            <h3>Ссылки</h3>
+            <ul>
+              <li><a href="#about">О нас</a></li>
+              <li><a href="#service">Услуги</a></li>
+              <li><a href="#why">Почему мы?</a></li>
+              <li><a href="#gallery">Галерея</a></li>
+              <li><a href="#contact">Контакты</a></li>
+            </ul>
+          </div>
+
+          <div class="contact_us">
+            <h3>Contact</h3>
+            <ul>
+              <li>
+                <i class="bx bx-current-location"></i>
+                <span>Россия, Москва</span>
+              </li>
+              <li>
+                <i class="bx bxs-phone-call"></i> <span>+79998761212</span>
+              </li>
+              <li>
+                <i class="bx bxs-time-five"></i>
+                <span>Пн-Сб : 10:00 - 19:00</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="follow_us">
+            <h3>Подписывайтесь</h3>
+            <i class="bx bxl-facebook-circle"></i>
+            <i class="bx bxl-twitter"></i>
+            <i class="bx bxl-instagram-alt"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      if ('serviceWorker' in navigator){
+        navigator.serviceWorker.register('sw.js')
+      }
+    </script>
+
+  </body>
+</html>
